@@ -22,7 +22,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 80                # The port that will be exposed externally
+    - port: 3000               # The port that will be exposed externally
       targetPort: 3000        # The port on the pod that the traffic will be directed to
       protocol: TCP
   selector:
