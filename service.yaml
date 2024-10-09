@@ -23,7 +23,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80                # The port that will be exposed externally
-      targetPort: 8080        # The port on the pod that the traffic will be directed to
+      targetPort: 3000        # The port on the pod that the traffic will be directed to
       protocol: TCP
   selector:
     app: my-app       # This should match the labels of your pods
