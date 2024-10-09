@@ -18,4 +18,4 @@ spec:
       - name: my-app-container
         image: asia-south1-docker.pkg.dev/test-project-for-ad-419709/test-k8s/testimage:v1
         ports:
-        - containerPort: 8080  # Adjust the port as necessary
+        - containerPort: 3000  # Adjust the port as necessary
